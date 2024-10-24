@@ -58,11 +58,13 @@ This script automates several key administrative tasks for managing a group of W
 
 .\\dailyHostsCheck.ps1 -g "labs" -debug
 
-\## .RECOMMENDED EXAMPLE:
+**\## .RECOMMENDED EXAMPLE:
 
 \`\`\`powershell
 
 .\\dailyHostsCheck.ps1 -g all -updateHosts psupdate -debug
+
+**\## .PARAMETERS:**
 
 \## .PARAMETER -g
 
@@ -78,7 +80,7 @@ If specified -updateHosts "", updates will be installed using internal Windows c
 
 Enables debug mode, displaying detailed logs and messages for troubleshooting.
 
-**\## .NOTES
+**\## .NOTES:**
 
 \- Requires administrative privileges to perform certain remote operations.
 
@@ -104,7 +106,7 @@ Enables debug mode, displaying detailed logs and messages for troubleshooting.
 
 \- Other auxiliary scripts accompany the application, which, while part of its workflow, can be used separately. They are located in the \`bin\` folder and include: \`captureEvents.ps1\`, \`checkHostLoad.ps1\`, and \`checkHostState.ps1\`. These scripts are self-documented.
 
-**\## .FILE STRUCTURE
+**\## .FILE STRUCTURE:**
 
 │   .htaccess
 
@@ -194,11 +196,11 @@ Enables debug mode, displaying detailed logs and messages for troubleshooting.
 
 └───tmp
 
-**\## .ORGANIZATION
+**\## .ORGANIZATION:**
 
 Developed for: Faculty of Documentation and Communication Sciences at the University of Extremadura.
 
-**\## .AUTHOR
+**\## .AUTHOR:**
 
 Alberto Ledo \[Faculty of Documentation and Communication Sciences\] - with assistance from OpenAI  
 
@@ -206,11 +208,11 @@ IT Department: University of Extremadura - IT Services for Facilities
 
 Contact: <albertoledo@unex.es>
 
-**\## .VERSION
+**\## .VERSION:**
 
 2.2.0
 
-**\## .HISTORY
+**\## .HISTORY:**
 
 \- 1.0 - Initial version by Alberto Ledo.
 
@@ -238,23 +240,23 @@ Contact: <albertoledo@unex.es>
 
 \- 2.2 - Added user logon functionality for secured access control to the dashboard.
 
-**\## .USAGE
+**\## .USAGE:**
 
 This script is strictly for internal use within Universidad de Extremadura.  
 
 The script is designed to operate within the IT infrastructure and environment of Universidad de Extremadura and may not function as expected in other environments.
 
-**\## .DATE
+**\## .DATE:**
 
 October 23, 2024 16:30
 
-**\## .DISCLAIMER
+**\## .DISCLAIMER:**
 
 This script is provided "as-is" and is intended for internal use at Universidad de Extremadura.  
 
 No warranties, express or implied, are provided. Any modifications or adaptations are not covered under this disclaimer.
 
-**\## .LINK
+**\## .LINK:**
 
 \- \[Daily Hosts Check on GitHub\](<https://github.com/n7rc/daily-hosts-check>)
 
